@@ -1,0 +1,561 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '262D7D915608030821EAA4DA835AF144',
+    participant: undefined
+  },
+  messageTimestamp: 1727213262,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2d64c8ca-e040-485e-be6c-92fdbfb4f577',
+  keyword: 'key_2cc51fa0-18f3-4108-85c2-e6707caafdba',
+  answer: '🤖 Hola, soy el asistente virtual *OZONBOT* te ayudare para que agendes el alquier del generador de ozono.🤖\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '05fe0740603845bc91dea68eb3f2496c'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1ad36183-b613-43bd-a297-e2a18b59144a',
+  keyword: 'ans_2d64c8ca-e040-485e-be6c-92fdbfb4f577',
+  answer: 'Estoy para que conozcas las ventajas del generador de *OZONO*\n',
+  options: {
+    media: 'https://m.media-amazon.com/images/I/71ulAic25CL._AC_SL1500_.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'da7afb2fb51264474dfd80be995d4d6a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_00a148eb-2d6f-4b81-be80-326969a144c1',
+  keyword: 'ans_1ad36183-b613-43bd-a297-e2a18b59144a',
+  answer: 'Para iniciar escribe *Menu* para explorar todas las opciones disponibles en nuestro chat.\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '72db660cbfe8c3fd106669b6758a4d42'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '58CDB6A47AD477416F8C879427F95BD1',
+    participant: undefined
+  },
+  messageTimestamp: 1727213268,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b95810e3-5cda-4157-84c9-efad70369fa5',
+  keyword: 'key_f0cc8d23-325e-43de-93d2-d61013098de1',
+  answer: 'Estas son las opciones que puedes elegir para alquilar un generador de OZONO:\r\n' +
+    '\r\n' +
+    '1. Información sobre ques es un generador de OZONO.\r\n' +
+    '\r\n' +
+    '2. Conozca nuestros planes y costos para alquilar el generador de OZONO. \r\n' +
+    '\r\n' +
+    '3. Alquiler del generador de OZONO.\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '0. Regresar al *Menu*. ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd0f3115e21c1a3b3ecf40bba72f86b19'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: 'D7193C7AF7BCE386333B67E836473AA7',
+    participant: undefined
+  },
+  messageTimestamp: 1727213272,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573506296324'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: 'BAD48632836CB5FE98B5B43CEF8038E1',
+    participant: undefined
+  },
+  messageTimestamp: 1727213279,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b95810e3-5cda-4157-84c9-efad70369fa5',
+  keyword: 'key_f0cc8d23-325e-43de-93d2-d61013098de1',
+  answer: 'Estas son las opciones que puedes elegir para alquilar un generador de OZONO:\r\n' +
+    '\r\n' +
+    '1. Información sobre ques es un generador de OZONO.\r\n' +
+    '\r\n' +
+    '2. Conozca nuestros planes y costos para alquilar el generador de OZONO. \r\n' +
+    '\r\n' +
+    '3. Alquiler del generador de OZONO.\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '0. Regresar al *Menu*. ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd0f3115e21c1a3b3ecf40bba72f86b19'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: 'A1F976F63DA38CEEF41E8D5416DB74D3',
+    participant: undefined
+  },
+  messageTimestamp: 1727213283,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573506296324'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '3C2C5C1232831A2247ED2D3D42FCCA90',
+    participant: undefined
+  },
+  messageTimestamp: 1727213327,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b95810e3-5cda-4157-84c9-efad70369fa5',
+  keyword: 'key_f0cc8d23-325e-43de-93d2-d61013098de1',
+  answer: 'Estas son las opciones que puedes elegir para alquilar un generador de OZONO:\r\n' +
+    '\r\n' +
+    '1. Información sobre ques es un generador de OZONO.\r\n' +
+    '\r\n' +
+    '2. Conozca nuestros planes y costos para alquilar el generador de OZONO. \r\n' +
+    '\r\n' +
+    '3. Alquiler del generador de OZONO.\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '0. Regresar al *Menu*. ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd0f3115e21c1a3b3ecf40bba72f86b19'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '3BEDA45440856DC1C9BED48951ADD884',
+    participant: undefined
+  },
+  messageTimestamp: 1727213330,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '573506296324'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '4E19803DB6EF6E80CFC381A8F17E5BD9',
+    participant: undefined
+  },
+  messageTimestamp: 1727213336,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Yanzes',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yanzes',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5ae807aa-7515-464a-9115-b2cf50a78d93',
+  keyword: 'ans_e6e96ba5-79a6-461d-afb4-8ffe5d05fc9b',
+  answer: 'Direción: ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '8e9063a0cbeba01a59721cc877925d6f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: 'A33CB8ADDD05B0523E944A824D079589',
+    participant: undefined
+  },
+  messageTimestamp: 1727213344,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: 'Carrera 101#82-52',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Carrera 101#82-52',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6768c071-101a-4f57-b270-286a47333ea1',
+  keyword: 'ans_5ae807aa-7515-464a-9115-b2cf50a78d93',
+  answer: '💼 Estas son los precios que tenemos disponebles para que puedas escoger el que mejor se adapte a tus necesidades. ✏️ \n' +
+    ' ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '45810a5e4253dcb16f15690216e8b391'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c3d85651-1710-4954-bbf9-6078bf8957be',
+  keyword: 'ans_6768c071-101a-4f57-b270-286a47333ea1',
+  answer: "1️⃣⌛ 1 H Apto 50 mtrs2 con domicilio   | $ 15.000'\r\n" +
+    "2️⃣⏰ 1 H Casa 60 mtrs2 con domicilio   | $ 20.000'\r\n" +
+    "3️⃣⏱️ 1 H LocalComerciales con domicilio| $ 35.000'\r\n" +
+    "4️⃣⏲️ 40min Carro particular a domicilio| $ 40.000'\r\n" +
+    '5️⃣🕰️ 45min serv público a domicilio    | $ 50.000)\r\n' +
+    '\r\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'aa38b53c2f0cd6db82ea734608ed5b64'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c97e92b1-9a4c-40ed-b839-c0a2db88abc0',
+  keyword: 'ans_c3d85651-1710-4954-bbf9-6078bf8957be',
+  answer: 'Que opcion necesitas? ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dc64a253022a299c509227c4aa08f323'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '74550D6A50F94CEE87000237A1661A9C',
+    participant: undefined
+  },
+  messageTimestamp: 1727213358,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2dca1d94-cb5c-456e-b8f9-69b22a0c5e3f',
+  keyword: 'ans_c97e92b1-9a4c-40ed-b839-c0a2db88abc0',
+  answer: '*Fecha la que necesitas el servico:* ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '2efddd378683cd2634d64642ad21f6f2'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: 'C14296F1A45B2244966714602B5B8F48',
+    participant: undefined
+  },
+  messageTimestamp: 1727213369,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: '12-23-23',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '12-23-23',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_86136d5b-6ba8-411c-9037-5c7ec4403749',
+  keyword: 'ans_2dca1d94-cb5c-456e-b8f9-69b22a0c5e3f',
+  answer: '*Hora en la que necesitas el servico:* ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '02105997845a1f317b3b01f9ffa38859'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573506296324@s.whatsapp.net',
+    fromMe: false,
+    id: '177F3F7E957DEAFAEA3981E8B69FFD52',
+    participant: undefined
+  },
+  messageTimestamp: 1727213374,
+  pushName: 'Yanco',
+  broadcast: false,
+  message: Message {
+    conversation: '10:20',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '10:20',
+  from: '573506296324'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d5fe8773-9bc1-4f5a-a59e-eebea040a006',
+  keyword: 'ans_86136d5b-6ba8-411c-9037-5c7ec4403749',
+  answer: '🏁Gracias tus datos fueron registrados con exito🏁',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7d42f5da0673ec8e88387eff2ad38eef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b6b84409-b817-459a-85e6-6bf0ba69d81d',
+  keyword: 'ans_d5fe8773-9bc1-4f5a-a59e-eebea040a006',
+  answer: '\n\n✌️¡Hemos recibido tu información!🤘\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a6d45d87f9eb6c912d1a5a0712381f35'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6dd12761-15a6-4d39-b8cf-1a5f18e52423',
+  keyword: 'ans_b6b84409-b817-459a-85e6-6bf0ba69d81d',
+  answer: '🫶 Procederemos con el agendamiento y, si necesitamos más detalles, nos pondremos en contacto.👋',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2b644132b4dfc49d9a255c200fa054cc'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0626dbf7-fdfa-4d42-9e76-36362c56dd2e',
+  keyword: 'ans_6dd12761-15a6-4d39-b8cf-1a5f18e52423',
+  answer: '💌 *¡Gracias!* Escribe "menú" para volver al inicio. 🪄 ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c4a1dbc0746988507fc3d375e43a4c21'
+}
