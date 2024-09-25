@@ -1,10 +1,13 @@
+// conexcion a google sheets 
+
+
 const { google } = require('googleapis');
 // Initializes the Google APIs client library and sets up the authentication using service account credentials.
 const auth = new google.auth.GoogleAuth({
     keyFile: './google.json',  // Path to your service account key file.
     scopes: ['https://www.googleapis.com/auth/spreadsheets']  // Scope for Google Sheets API.
 });
-
+// el ID de la hoja en la que se almacenaran los datos. 
 const spreadsheetId ='1_S6G8ojCDKzAmW-anb26Tli5em3GncRz2oiG8KcHV7Y'
 
 async function appendToSheet(values) {

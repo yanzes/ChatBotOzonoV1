@@ -6,13 +6,14 @@ const { appendToSheet} = require("./utils")
 const { delay } = require('@whiskeysockets/baileys')
 const path =require("path")
 const fs =require("fs")
-
+// conexion a los text que se tiene en la ruta mensajes. 
 const menuPath = path.join(__dirname, 'mensajes', 'menu.txt')
 const menu = fs.readFileSync(menuPath, 'utf8').split('\n')
-
+// conexion a los text que se tiene en la ruta mensajes donde se tiene el listado de los precios. 
 const precPath = path.join(__dirname, 'mensajes', 'Precios.txt')
 const precio = fs.readFileSync(precPath, 'utf8')
 
+// Inicia el flujo con la interaccion del usuario. ( se inicia con las palabras indicadas. 👇)
 const flowInicio = addKeyword(['hola','Hola','Buen dia','Buenos Dias','Buenos dias','Buenos dias ','buenos dias','Buenas tardes','Buenas tardes ','Buenas Tardes','buenas'])
     .addAnswer('🤖 Hola, soy el asistente virtual *OZONBOT* te ayudare para que agendes el alquier del generador de ozono.🤖\n' ) 
     
@@ -35,6 +36,8 @@ const flowMenuInfo = addKeyword(EVENTS.ACTION)
         media:'https://m.media-amazon.com/images/I/81jUA2ZNfjL._AC_SL1500_.jpg'
     }
     )
+    // este es un recordatorio. 
+
     //.addAnswer('💼 Estas son los precios que tenemos disponebles para que puedas escoger el que mejor se adapte a tus necesidades. ✏️ \n ')
     //.addAnswer('⌛ 1 Hr Apto 50 mtrs2 con domicilio   | $ 15.000')
     //.addAnswer('⏰ 1 Hr Casa 60 mtrs2 con domicilio   | $ 20.000')
@@ -63,6 +66,7 @@ const flowPrincipal = addKeyword(EVENTS.ACTION)
         await ctxFn.state.update({address: ctx.body})
     }
 )
+// Inicia el proceso de agendamiento con el form que diligencia el cliente. 👇
 .addAnswer('💼 Estas son los precios que tenemos disponebles para que puedas escoger el que mejor se adapte a tus necesidades. ✏️ \n ')
 .addAnswer(precio)
 
@@ -81,6 +85,7 @@ const flowPrincipal = addKeyword(EVENTS.ACTION)
         await ctxFn.state.update({categoryH: ctx.body})
     }
 )
+// carga la informacion en el google sheets
 .addAnswer("🏁Gracias tus datos fueron registrados con exito🏁", null,
     async(ctx,ctxFn) => {
         const senderName =ctxFn.state.get("senderName")||'Usuario'
@@ -94,11 +99,12 @@ const flowPrincipal = addKeyword(EVENTS.ACTION)
         await appendToSheet ([senderName,senderPhone,name,address, amount, category,categoryH,interactionTime])
     }
 )
+// Finaliza el proceso 
 .addAnswer('\n\n✌️¡Hemos recibido tu información!🤘\n')
 .addAnswer('🫶 Procederemos con el agendamiento y, si necesitamos más detalles, nos pondremos en contacto.👋')
 .addAnswer('💌 *¡Gracias!* Escribe "menú" para volver al inicio. 🪄 ')
 
-
+// Proceso del menu para escojer el flow
 const menuFlow = addKeyword('menu','Menú ','menú').addAnswer(
     menu,
     { capture: true },
@@ -122,6 +128,8 @@ const menuFlow = addKeyword('menu','Menú ','menú').addAnswer(
         }
     }
 );
+
+//  proceso donde se relacionan los flows 
 const main = async () => {
     try{
         const adapterDB = new MockAdapter()
