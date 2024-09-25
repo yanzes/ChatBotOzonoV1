@@ -1,13 +1,13 @@
 {
   "type": "service_account",
-  "project_id": "whatsappbotv3-431721",
-  "private_key_id": "dcfeab43e431f208cc29c6142c8118a2f204c09a",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDNy0+YxQLSx3zS\n6YTtLZKCepCE5pHEpGG96PoSLte96xP2XsH1TteSaZRco0518P/vGEFsArQeB7GG\n4XHMheRRpV6hk/lq/Y3lpSc3W6Smy4WOP/WqvgZ0OUTACSbruJ3Spb6DP62Fi+Ch\nYsUM7Q9pSdPM/o6Y7J4VSO7eCyKE6FbygFyXHa6RXHECpMxiB5lb8Nurf+WH3ctw\nSUyv3rR9H5/5niTqKveAUJjJykPFGwZhI/agWZAx2UWXYjsQGXyk5yebd1CqmQUb\nZewsek7N8yKmDCtoG0aNk+Dx5oqmvgOQgH/YEzsIeuqnDvoC3QTbYk9i4SQ5NzOs\nBbq7eWFVAgMBAAECggEABLbg8+xPduoAVLSUyaTUSQ5AZqBW5oeoKuQ+FlHhugVl\n8lbpX+frzabYMecWfQ0wT8HhKHWcurNiaxHvEXMKb/Rh3pcNN648pJjL9TCxl5Xs\npqhAcHuPRPUAO4X6Jkbsa/matlcBxUrBsptt+DCAvItnFrhze9Kv1xJR+97gGOX5\nz1n4K1wwrZJz9TylRs7x5xmgKrsR9eRXEp2OoT8/47eIGdgWJ4DVH/2ZmFjnpVnr\n+2llb3gA1/GD5r/TN8dZ+KHsWrHIxZfjG22ZZL+17XfbNcX70fF+uv4Ew5ysp6qY\ntJxt5GGFzrm/WkNSijh0WVw58CBCT4ONjy3MM5UwAQKBgQDzCgzRRipLUtFep8sR\ngl9R1aI+NsmryTFpl/l5iYmW205tmid7/lP+npJTN5jNUgEifWynRUigCYx7Q6JB\nkG9Tzk2pa1IaOZ1746MQqWS2+H5/ZkUXD0jRvcDIXLYG3j+Nod0bJz/04znMBs8j\nhiz0/vHUzt5vB2TxklklYbS31QKBgQDYxMtiZKtPZDRqnvQhDGh/yXTveECQ4m4m\ndNnX5pSUttUXw+v5eW0lTX+03pzGUhhMeNotj1bo5CV8EovNda1/sKZIp5iSZfUM\n+OQjaPpPG2dV5f8xAYV+9ao2xSSlmclshLmzq+xdSxIoZoAKvhwSR6bvmulIjvIh\nzhM5uBxDgQKBgGoL1JPr/cBoHpsis+Sr8lOO2AA1f8HJRBpDCcQSU0rT3mDMhrX/\nvz62ijptY+sTARO/jo1eGdZa1EVkuYPKNglnV1O5VFXFFgZcyWYXw65ity93vGXX\ncXqzRU8nxPUyPKDcI9IZSjrcevefcPqbLTqpk3O74CqqG02dAfDhtS0RAoGBAJW3\nrsYBw/SswCtYKEPfPxnrufFgPDAVxICZOpENOFhSw3GLp6OCg6k9EtSI4P11XEUN\nP5wyIZPvaBh+8sJw4emMx/zsjMuo0g0opuHyMtiKk9/XYF+nrl2XLf5wQbSDOITU\nUzLOrw1suVjgGtXQorDZfmqFs1SjLoe8vrih+huBAoGAYJr6SrzCmyzP5R5xNErn\nI85S+WdtXoR4gIhcSdjLvStRr8U4iEpZg7ApwTqPlYwusryt5ctzSRBZ6+QauYpC\nxPZie5lQlnFYBg2iOMagZHm1aTrPce1wZLkJGt6VIIUpB3CKgWuE76J0vUQG+RmW\nrUIMfNKjdKGiH4+/SB9abJ4=\n-----END PRIVATE KEY-----\n",
-  "client_email": "sheetsserviceacc@whatsappbotv3-431721.iam.gserviceaccount.com",
+  "project_id": "whatsappbotv3-IDGoogle",
+  "private_key_id": "private_key_id",
+  "private_key": "PRIVATE KEY-----\n",
+  "client_email": "sheetsserviceacc",
   "client_id": "113844519317247711332",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheetsserviceacc%40whatsappbotv3-431721.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "token_uri": "https:///token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com",
+  "client_x509_cert_url": "https://www.googleapis",
+  "universe_domain": "googapis.com"
 }
